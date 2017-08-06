@@ -23,6 +23,8 @@ This was made by me[Praveen Banthia],Pathare Neil,Gade Tejaswi,Katneni Naren in 
 This sentiment was shared by others since we won the competetion as the most finished and useful product across. We also won the people's choice award for the product that will be used by most people across the organization
 
 ### Can you use it ?
+
+#### what you get
 Of course you can you although you will have to tweak a few things for that. Let me first put out what it can do for you in its current form
 
 * It can read specific parts of the DOM
@@ -31,7 +33,15 @@ Of course you can you although you will have to tweak a few things for that. Let
 * It can create custom labels when creating a jira
 * It can auto populate those and show the user what will be send to jira
 * It has ability to let user create the name of jira he is logging
-* It also will only be active on certain pages which can be twekaed in manifest.json in ***PUT VALID URL HERE*** section
+
+
+#### What you need to do?
+
+* It also will only be active on certain pages which can be tweaked in manifest.json in ***PUT VALID URL HERE*** section
+* You might also want to modify what details are retreived from DOM in contentScript->sendSplunkDetails()
+* You also might want to modift the description being saved in jira in 
+https://github.com/praveen2710/Chrome-Extensions/blob/master/Splogger/popup/popup.js#L42
+* And also add any other columns required by jira in configuration page.
 
 ### Issue Tracking and Future Enhancements
 * https://praveenbanthia.myjetbrains.com/youtrack/issues/SPLOGGER
