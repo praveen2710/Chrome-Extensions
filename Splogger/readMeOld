@@ -1,0 +1,24 @@
+To Do:
+    HTML/Pop-Up Page:
+[ ] Span tag with the JIRA number.
+---------------------------------------------------------------------------------------------------------------------------
+    Options Page:
+[ ] Logic to select which JIRA instance is the default.
+[ ] Alphabetically sorted Label List
+[ ] Whether Labels are selected by default or not.
+[ ] Show an error notification on JIRA instance "Save" when URL isn't valid.
+---------------------------------------------------------------------------------------------------------------------------
+    Others:
+[x] Splogger icon doesn't show up in chrome://extensions/ page
+---------------------------------------------------------------------------------------------------------------------------
+    Nice to Haves:
+[ ] URL validation
+[ ] Retrieving labels from JIRA server based on default JIRA selected.
+[x] 'Clear' button for reset.
+[x] Flex JIRA URL based on whether the user enters a trailing forward slash or not
+[ ] 'Enter' button should trigger the 'Save' button
+[ ] Use Cookies/JSessionID in Header instead of user-pass (More Info: https://stackoverflow.com/a/15300769, https://stackoverflow.com/questions/12057890/fake-user-agent-for-iframe)
+---------------------------------------------------------------------------------------------------------------------------
+ JIRA API:
+[ ] Get token if it is expired already when we click create JIRA.
+[ ] Create notification when password expires.
