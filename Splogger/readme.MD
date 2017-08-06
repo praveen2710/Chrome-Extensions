@@ -38,7 +38,8 @@ Of course you can you although you will have to tweak a few things for that. Let
 #### What you need to do?
 
 * It also will only be active on certain pages which can be tweaked in manifest.json in ***PUT VALID URL HERE*** section
-* You might also want to modify what details are retreived from DOM in contentScript->sendSplunkDetails()
+* You might also want to modify what details are retreived from DOM in 
+https://github.com/praveen2710/Chrome-Extensions/blob/master/Splogger/contentScript.js#L56
 * You also might want to modift the description being saved in jira in 
 https://github.com/praveen2710/Chrome-Extensions/blob/master/Splogger/popup/popup.js#L42
 * And also add any other columns required by jira in configuration page.
